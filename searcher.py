@@ -68,6 +68,6 @@ def search_person_vectorized(pkl_path, query_image_path, tolerance=0.4):
         print(f"Tip: Closest was {best_dist:.4f}. If this is ~0.65, try tolerance 0.7.")
 
 if __name__ == "__main__":
-    PKL = "/Users/shreyasl/Desktop/Offline Recognition/face_data.pkl"
-    IMG = "/Users/shreyasl/Downloads/PXL_20250731_205708140.MP.jpg"
+    PKL = "path/to/your/database.pkl"
+    IMG = "path/to/your/query_image.jpg"
     search_person_vectorized(PKL, IMG)
