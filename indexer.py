@@ -4,7 +4,7 @@ import pickle
 import cv2
 from tqdm import tqdm
 
-SEARCH_DIR = "/Volumes/One Touch/Google_Photos"
+SEARCH_DIR = "path/to/your/photos"
 OUTPUT_FILE = "face_data.pkl"
 
 face_encodings_db = []
