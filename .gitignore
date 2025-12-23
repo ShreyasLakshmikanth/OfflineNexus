@@ -1,0 +1,19 @@
+# --- Biometric Data (Privacy) ---
+# Never share the actual face signatures
+face_data.pkl
+Search_Results/
+
+# --- Raw Media ---
+# Never upload the actual photos
+*.jpg
+*.jpeg
+*.png
+*.MP.jpg
+*.mp4
+
+# --- System & Environment ---
+# Keeps the repo clean of Mac junk and virtual environments
+.DS_Store
+face_offline/
+__pycache__/
+*.pyc
