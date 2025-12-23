@@ -20,9 +20,10 @@ Processing **114,736 images** (approx. 9 hours of indexing) creates significant 
 - **Zero-Data GitHub:** The `.gitignore` ensures that biometric signatures (`.pkl`) and raw image data never leave the local machine.
 
 ## ⚙️ Setup
-1. Create environment: `python3 -m venv face_offline`
-2. Activate: `source face_offline/bin/activate`
-3. Install dependencies: `pip install -r requirements.txt`
+
+1. **Create a Virtual Environment:** `python3 -m venv face_offline`
+2. **Activate the Environment:** `source face_offline/bin/activate`
+3. **Install AI Libraries & Dependencies:** `pip install -r requirements.txt`
 
 ---
 *Developed as part of an exploration into solving daily problems by building AI models.*
